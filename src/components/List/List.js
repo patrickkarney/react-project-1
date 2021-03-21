@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 
-const test = "1"
+const test = "2"
 class List extends React.Component {
   state = {
     columns: this.props.columns || [],
