@@ -12,12 +12,16 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    logo: 'cat',
+  },
 };
 
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
+
 
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
@@ -146,6 +150,18 @@ const initialStoreData = {
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+};
+
+export const info = {
+  title: 'Things to do <sup>soon!</sup>',
+  description: 'Interesting things I want to check out!',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png', 
+};
+
+export const faq = {
+  title: 'Things to do <sup>soon!</sup>',
+  description: 'Interesting things I want to check out!',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png', 
 };
 
 export default initialStoreData;
