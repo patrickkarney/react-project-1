@@ -4,8 +4,7 @@ import {getCardsByTitle} from '../../redux/cardsRedux.js';
 
 
 const mapStateToProps = (state, props) => ({
-  cards: getCardsByTitle(state, props.id),
+  cards: getCardsByTitle(state, props.match.params.id),
 });
-
 
 export default connect(mapStateToProps)(SearchResult);
